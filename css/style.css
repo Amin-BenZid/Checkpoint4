@@ -1,0 +1,49 @@
+.red {
+  background-color: red;
+  display: flex;
+}
+.green {
+  background-color: green;
+  display: flex;
+  text-align: center;
+}
+.yellow {
+  background-color: yellow;
+  height: 60vh;
+  display: flex;
+}
+.blue {
+  background-color: blue;
+  height: 60vh;
+}
+.red1 {
+  background-color: red;
+  height: 60vh;
+}
+.red2 {
+  background-color: red;
+  height: 23vh;
+  width: 100vw;
+  display: flex;
+}
+h2 {
+  display: flex;
+  text-align: center;
+  margin-left: 38%;
+}
+h4 {
+  display: flex;
+  text-align: center;
+  margin-left: 30%;
+}
+
+@media only screen and (max-width: 990px) and (min-width: 575px) {
+  .red3 {
+    display: flex;
+    margin: 60px;
+    height: 40vh;
+  }
+  .red2 {
+    margin: 3px;
+  }
+}
